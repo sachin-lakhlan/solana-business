@@ -164,8 +164,7 @@
 
 .timeline {
     position: relative;
-    max-width: 1200px;
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -187,7 +186,7 @@
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
-    width: 60%;
+    width: 50%;
 }
 
 
@@ -204,9 +203,7 @@
 }
 
 
-.left {
-    left: -10%;
-}
+
 
 .right {
     left: 50%;
