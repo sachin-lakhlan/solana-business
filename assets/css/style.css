@@ -122,6 +122,10 @@
     padding-bottom: 58px;
 }
 
+.pt-29 {
+    padding-top: 29px;
+}
+
 /* section-4 */
 .pb-106 {
     padding-bottom: 106px;
@@ -215,10 +219,15 @@
 
 
 .content {
-    padding: 20px 30px;
     background-color: white;
     position: relative;
     border-radius: 10px;
+    max-width: 568px;
+    padding: 27px 23px 27px 23px;
+}
+
+.mb-97 {
+    margin-bottom: 97px;
 }
 
 /* section-5 */
@@ -295,7 +304,7 @@
 
 .accordion-button {
     color: #000000 !important;
-    font-size: 18px;
+    font-size: 18px !important;
     font-weight: 600;
     line-height: 27px;
 }
@@ -315,6 +324,10 @@
 
 .mb-44 {
     margin-bottom: 44px;
+}
+
+.gap-46 {
+    gap: 46px;
 }
 
 @media (max-width: 768px) {
@@ -353,9 +366,17 @@
     .left {
         left: 0%;
     }
+
+    .timeline::after {
+        bottom: 350px;
+    }
+
+    .section-4-bg {
+        background-image: none !important;
+    }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 575.98px) {
 
     .timeline::after {
         left: 31px;
@@ -419,20 +440,8 @@
     }
 }
 
-@media (max-width:767.98px) {
-    .timeline::after {
-        bottom: 350px;
-    }
-}
-
 @media (max-width:1199.98px) {
     .gap-38 {
         gap: 10px;
-    }
-}
-
-@media (max-width:336.98px) {
-    .timeline::after {
-        bottom: 350px;
     }
 }
